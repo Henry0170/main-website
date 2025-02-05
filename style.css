@@ -1,0 +1,157 @@
+* {
+    margin:0;
+}
+
+.currentPage {
+    float:right;
+    color:white;
+    position:relative;
+    bottom:25%;
+    margin-right: 20px;
+}
+
+body, html {
+    background-image:url(assets/background.jpg);
+    height:100%;
+    width:100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.topBar {
+    position:relative;
+    color:white;
+    background-color:rgba(255, 255, 255, 0.18);
+    width:100%;
+    height:55px;
+}
+.title {
+    position:relative;
+    top:25%;
+    margin-left:20px;
+}
+
+.intro {
+    top:330px;
+    max-width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    
+    border:2px rgba(255, 255, 255, 0.428) solid;
+    font-size: 37px;
+    box-shadow:8px 7px rgba(0, 0, 0, 0.285);
+    border-radius: 20px;
+    padding:20px;
+    background-color: rgba(255, 255, 255, 0.637);    
+    position: absolute;
+    color:black;
+}
+
+.contactHeading {
+    border:2px rgba(255, 255, 255, 0.428) solid;
+    font-size: 30px;
+    box-shadow:8px 7px rgba(0, 0, 0, 0.285);
+    border-radius: 20px;
+    padding:20px;
+    background-color: rgba(255, 255, 255, 0.637);    
+    position: absolute;
+    color:black;
+    top:150px;
+    left:50%;
+    transform:translate(-50%,0%) 
+}
+
+.emailText {
+    border:2px rgba(255, 255, 255, 0.428) solid;
+    font-size: 30px;
+    box-shadow:8px 7px rgba(0, 0, 0, 0.285);
+    border-radius: 20px;
+    padding:20px;
+    background-color: rgba(255, 255, 255, 0.637);    
+    position: absolute;
+    color:black;
+    left:50%;
+    transform:translate(-50%,0%);  
+    top:280px;
+}
+
+
+.phoneNumText {
+    border:2px rgba(255, 255, 255, 0.428) solid;
+    font-size: 30px;
+    box-shadow:8px 7px rgba(0, 0, 0, 0.285);
+    border-radius: 20px;
+    padding:20px;
+    background-color: rgba(255, 255, 255, 0.637);    
+    position: absolute;
+    color:black;
+    left:50%;
+    transform:translate(-50%,0);
+    top:480px;
+}
+
+.addressText {
+    border:2px rgba(255, 255, 255, 0.428) solid;
+    font-size: 30px;
+    box-shadow:8px 7px rgba(0, 0, 0, 0.285);
+    border-radius: 20px;
+    padding:20px;
+    background-color: rgba(255, 255, 255, 0.637);    
+    position: absolute;
+    color:black;
+    left:50%;
+    transform:translate(-50%,0);
+    top: 650px;
+}
+
+.projectContainer {    
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:20px;
+    
+    margin-left: 7%;
+}
+
+.projectContainer > div {
+    border:2px rgba(255, 255, 255, 0.428) solid;
+    font-size: 30px;
+    box-shadow:8px 7px rgba(0, 0, 0, 0.285);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.637);    
+    color:black;
+    text-align: center;
+    width:400px;
+    height:400px; 
+    margin:20px;
+}
+
+.button {
+    background-color: rgba(255, 255, 255, 0);
+    color:white;
+    border-radius: 20px; 
+    width:70px;
+    height:30px;
+    cursor:pointer;
+    position:relative;
+    float:right;
+    bottom:25%;
+    border-color: black;
+}
+
+.button:active {
+    background-color: rgba(255, 255, 255, 0.503);
+    color:white;
+    transform:none;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.buttons {
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
