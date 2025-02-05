@@ -2,6 +2,20 @@
     margin:0;
 }
 
+.icon {
+    position:absolute;
+    height:35px;
+    width:40px;
+    float:right;
+    right:140px;
+    bottom:50%;
+    transform:translate(0%,50%);
+}
+
+.projectIcon {
+    right:120px;
+}
+
 .currentPage {
     float:right;
     color:white;
@@ -46,6 +60,63 @@ body, html {
     background-color: rgba(255, 255, 255, 0.637);    
     position: absolute;
     color:black;
+}
+
+.textbox {    
+    border:2px rgba(255, 255, 255, 0.428) solid;
+    font-size: 37px;
+    box-shadow:8px 7px rgba(0, 0, 0, 0.285);
+    border-radius: 20px;
+    padding:20px;
+    background-color: rgba(255, 255, 255, 0.637);    
+    position: absolute;
+    color:black;
+}
+
+.about {
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    max-width: 500px;
+}
+
+.panel1 {
+    position:absolute;
+    top:50%;
+    transform:translate(0%,-50%);
+    left:15.6%;
+    height:500px;
+    width:200px;
+    padding:10px;
+}
+
+.panel2 {
+    position:absolute;
+    top:50%;
+    transform:translate(0%,-50%);
+    right:15.6%;
+    height:500px;
+    width:200px;
+    padding:10px;
+}
+
+.image1 {
+    height:200px;
+    width:180px;
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0%);
+    top:10px;
+}
+
+.image2 {
+    height:200px;
+    width:180px;
+    position:relative;
+    left:50%;
+    transform:translate(-50%,0%);
+    bottom:-60px;
 }
 
 .contactHeading {
