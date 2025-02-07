@@ -1,7 +1,6 @@
 * {
     margin:0;
 }
-
 .icon {
     position:absolute;
     height:35px;
@@ -11,11 +10,9 @@
     bottom:50%;
     transform:translate(0%,50%);
 }
-
 .projectIcon {
     right:120px;
 }
-
 .currentPage {
     float:right;
     color:white;
@@ -23,9 +20,9 @@
     bottom:25%;
     margin-right: 20px;
 }
-
 body, html {
     background-image:url(assets/background.jpg);
+    background-color: black;
     height:100%;
     width:100%;
     background-position: center;
@@ -44,7 +41,6 @@ body, html {
     top:25%;
     margin-left:20px;
 }
-
 .intro {
     top:330px;
     max-width: 500px;
@@ -61,7 +57,6 @@ body, html {
     position: absolute;
     color:black;
 }
-
 .textbox {    
     border:2px rgba(255, 255, 255, 0.428) solid;
     font-size: 37px;
@@ -72,7 +67,6 @@ body, html {
     position: absolute;
     color:black;
 }
-
 .about {
     position:absolute;
     left:50%;
@@ -80,7 +74,6 @@ body, html {
     transform:translate(-50%,-50%);
     max-width: 500px;
 }
-
 .panel1 {
     position:absolute;
     top:50%;
@@ -90,7 +83,6 @@ body, html {
     width:200px;
     padding:10px;
 }
-
 .panel2 {
     position:absolute;
     top:50%;
@@ -100,7 +92,6 @@ body, html {
     width:200px;
     padding:10px;
 }
-
 .image1 {
     height:200px;
     width:180px;
@@ -109,7 +100,6 @@ body, html {
     transform:translate(-50%,0%);
     top:10px;
 }
-
 .image2 {
     height:200px;
     width:180px;
@@ -118,7 +108,6 @@ body, html {
     transform:translate(-50%,0%);
     bottom:-60px;
 }
-
 .contactHeading {
     border:2px rgba(255, 255, 255, 0.428) solid;
     font-size: 30px;
@@ -132,7 +121,6 @@ body, html {
     left:50%;
     transform:translate(-50%,0%) 
 }
-
 .emailText {
     border:2px rgba(255, 255, 255, 0.428) solid;
     font-size: 30px;
@@ -146,8 +134,6 @@ body, html {
     transform:translate(-50%,0%);  
     top:280px;
 }
-
-
 .phoneNumText {
     border:2px rgba(255, 255, 255, 0.428) solid;
     font-size: 30px;
@@ -161,7 +147,6 @@ body, html {
     transform:translate(-50%,0);
     top:480px;
 }
-
 .addressText {
     border:2px rgba(255, 255, 255, 0.428) solid;
     font-size: 30px;
@@ -175,7 +160,6 @@ body, html {
     transform:translate(-50%,0);
     top: 650px;
 }
-
 .projectContainer {    
     display:grid;
     grid-template-columns: auto auto auto;
@@ -183,7 +167,6 @@ body, html {
     margin-left: 8.5%;
     margin-top: 20px;
 }
-
 .projectContainer > div {
     border:2px rgba(255, 255, 255, 0.428) solid;
     font-size: 30px;
@@ -195,7 +178,6 @@ body, html {
     width:400px;
     height:400px; 
 }
-
 .button {
     background-color: rgba(255, 255, 255, 0);
     color:white;
@@ -208,14 +190,12 @@ body, html {
     bottom:25%;
     border-color: black;
 }
-
 .button:active {
     background-color: rgba(255, 255, 255, 0.503);
     color:white;
     transform:none;
     border-color: rgba(0, 0, 0, 0);
 }
-
 .buttons {
     position:absolute;
     top:60%;
@@ -224,4 +204,9 @@ body, html {
     display:flex;
     gap:10px;
     flex-wrap:wrap;
+}
+.table {
+    color:white;
+    margin:10px;
+    position:absolute;
 }
