@@ -63,8 +63,8 @@ body, html {
     box-shadow:8px 7px rgba(0, 0, 0, 0.285);
     border-radius: 20px;
     padding:20px;
-    background-color: rgba(255, 255, 255, 0.637);    
     position: absolute;
+    background-color: rgba(255, 255, 255, 0.637);    
     color:black;
 }
 .about {
@@ -208,5 +208,41 @@ body, html {
 .table {
     color:white;
     margin:10px;
+    position:absolute;
+}
+.welcome {
+    position:absolute;
+    top:15%;
+    left:50%;
+    transform:translate(-50%,0%);
+    color:#ffd194;
+    font-size: 30px;
+    background-color: #a37fff9b;
+    border-radius: 20px;
+    padding:10px;
+    box-shadow:8px 7px rgba(0, 0, 0, 0.285);
+}
+.youtube {
+    height:30px;
+    width:30px;
+    float:right;
+    right:190px;
+    bottom:10px;
+    position:absolute;
+}
+.google {
+    height:30px;
+    width:30px;
+    float:right;
+    right:230px;
+    bottom:10px;
+    position:absolute;
+}
+.classroom {
+    height:35px;
+    width:35px;
+    float:right;
+    right:270px;
+    bottom:8px;
     position:absolute;
 }
